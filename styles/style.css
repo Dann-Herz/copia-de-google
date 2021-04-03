@@ -1,3 +1,8 @@
+:root {
+    --space-line: 1rem;
+    --widht: 100%;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,8 +13,56 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    min-width: 40rem;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
 header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 100%;
 }
+
+header menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+header menu a {
+    margin-top: 1.2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.7rem;
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+    font-size: 1.35rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header menu a:hover{
+    text-decoration: underline;
+}
+
+.icon {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.icon_apps {
+    width: 2rem;
+    height: 2rem;
+}
+
+.img {
+    margin-bottom: 1rem;
+}
+
+.img_yo {
+    width: 3.2rem;
+    height: 3.2rem;
+
+}
+

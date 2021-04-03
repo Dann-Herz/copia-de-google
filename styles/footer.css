@@ -1,0 +1,54 @@
+
+footer {
+    width: 100%;
+    height: 9.4rem;
+    display: block;
+}
+
+.mexico {
+    background-color: #F2F2F2;
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    font-family: Arial, sans-serif;
+    color: rgba(0,0,0,.54);
+    border-bottom: 1px solid #dadce0;
+}
+
+.info-footer {
+    background-color: #F2F2F2;
+    padding: 0rem 2rem;
+    font-size: 1.5rem;
+    font-family: Arial, sans-serif;
+    color: rgba(0,0,0,.54);
+    border-bottom: 1px solid #dadce0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div div {
+    height: 4.6rem;
+    display: flex;
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.right {
+    justify-items: flex-end;
+}
+
+footer div div a {
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    color: rgba(0,0,0,.54);
+    text-decoration: none;
+}
+
+footer div div a:hover {
+    text-decoration: underline;
+}
+
+footer div span {
+    width: 30rem;
+}
